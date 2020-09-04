@@ -14,3 +14,4 @@ Currently implemented:
 
 Plans:
 - 1-Wire (interrupt-based).
+- Power management or sleep modes.
