@@ -9,9 +9,9 @@ Currently implemented:
 - I2C in master mode.
 - UART with FIFO.
 - SPI in master mode.
-- RTC (based on async timer with 32.768 crystal).
-- Some text processing functions.
+- Some text processing and time functions.
 
 Plans:
 - 1-Wire (interrupt-based).
 - Power management or sleep modes.
+- RTC (based on async timer with 32.768 crystal).
