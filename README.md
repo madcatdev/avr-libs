@@ -1,7 +1,7 @@
 # avr-libs
 madcatdev AVR Libraries
 
-This is a bunch of libraries for AVR MCUs (currently Atmega328p).
+This is a bunch of libraries for AVR MCUs (currently Atmega168/328(p)).
 It was created to simpify my work with bare-metal MCU. 
 
 Currently implemented:
