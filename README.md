@@ -1,7 +1,7 @@
 # avr-libs
 madcatdev AVR Libraries
 
-This is a bunch of libraries for AVR MCUs.
+This is a bunch of C++ libraries for AVR.
 It was created to simpify my work with bare-metal MCU. 
 
 Supported MCUs:
@@ -10,7 +10,7 @@ Supported MCUs:
 Implemented interfaces:
 - EEPROM with 16-bit addressation.
 - I2C/TWI in master mode.
-- UART with FIFO.
+- UART with FIFO buffer.
 - SPI in master mode.
 - Some text processing and time conversion functions.
 
@@ -18,7 +18,7 @@ Supported devices:
 - DS1307/DS3231 (I2C-based RTC)
 
 Plans:
-- 1-Wire (interrupt-based).
-- Power management or sleep modes.
+- 1-Wire in master and slave mode.
+- Power management with sleep modes.
 - RTC (based on async timer with 32.768 crystal).
 - Support for MCUs with multiple SPI/UART/I2C interfaces.
