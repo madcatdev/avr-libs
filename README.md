@@ -4,12 +4,15 @@ madcatdev AVR Libraries
 This is a bunch of libraries for AVR MCUs (currently Atmega168/328(p)).
 It was created to simpify my work with bare-metal MCU. 
 
-Currently implemented:
-- EEPROM with 16-bit addresses.
+Currently implemented interfaces:
+- EEPROM with 16-bit addressation.
 - I2C/TWI in master mode.
 - UART with FIFO.
 - SPI in master mode.
 - Some text processing and time conversion functions.
+
+Currently implemented devices:
+- DS1307/DS3231 (I2C-based RTC)
 
 Plans:
 - 1-Wire (interrupt-based).
