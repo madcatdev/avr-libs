@@ -14,7 +14,7 @@ Implemented interfaces:
 - SPI in master mode.
 - Some text processing and time conversion functions.
 
-Implemented devices:
+Supported devices:
 - DS1307/DS3231 (I2C-based RTC)
 
 Plans:
