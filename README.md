@@ -1,7 +1,4 @@
-# avr-libs
-madcatdev AVR Libraries
-
-This is a bunch of C++ libraries for AVR.
+This is a bunch of C++ libraries for AVR (currently atmega/attiny).
 It was created to simpify my work with bare-metal MCU. 
 
 Supported MCUs:
@@ -22,3 +19,4 @@ Plans:
 - Power management with sleep modes.
 - RTC (based on async timer with 32.768 crystal).
 - Support for MCUs with multiple SPI/UART/I2C interfaces.
+- XMega support.
